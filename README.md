@@ -9,16 +9,23 @@ The goal of the project is to demonstrate understanding of:
 - clean project structure
 
 ## Project Structure
-DataAlgorithms
-├── Models
-│ └── Person.cs
-├── Searching
-│ ├── BinarySearch.cs
-│ └── LinearSearch.cs
-├── Sorting
-│ ├── BubbleSort.cs
-│ ├── QuickSort.cs
-│ └── MergeSort.cs
+```text
+DataAlgorithms/
+├── Comparers/
+│   └── PersonLastNameComparer.cs
+├── Models/
+│   └── Person.cs
+├── Searching/
+│   ├── BinarySearch.cs
+│   └── LinearSearch.cs
+├── Sorting/
+│   ├── BubbleSort.cs
+│   ├── MergeSort.cs
+│   └── QuickSort.cs
+├── Program.cs
+├── DataAlgorythms.csproj
+└── DataAlgorithms.sln
+```
 
 ## Implemented Algorithms
 

@@ -67,6 +67,8 @@ int index = BinarySearch.Search(
 
 ## Unit Tests
 
+All algorithms have MSTest unit tests in the `DataAlgorithmsTests` project.
+
 The project contains MSTest unit tests to verify the correctness of all algorithms.
 
 - SortingTests.cs: tests BubbleSort, QuickSort, MergeSort

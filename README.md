@@ -65,8 +65,28 @@ int index = BinarySearch.Search(
 );
 ```
 
+## Unit Tests
+
+The project contains MSTest unit tests to verify the correctness of all algorithms.
+
+- SortingTests.cs: tests BubbleSort, QuickSort, MergeSort
+- SearchingTests.cs: tests LinearSearch, BinarySearch
+
+Run tests using:
+
+```bash
+dotnet test DataAlgorithmsTests/DataAlgorithmsTests.csproj
+```
+## Test Results
+
+All unit tests pass successfully:
+
+![Test Explorer Screenshot](images/tests.png)
+
+## Requirements
+- .NET 9 SDK
+- MSTest framework
 
 ### Future Improvements
-- Add unit tests
 - Add more comparers
 - Use algorithms in a WPF application
